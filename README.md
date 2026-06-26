@@ -42,3 +42,12 @@ streamlit run app.py
 
 - Ứng dụng yêu cầu kết nối đến model `vicuna: 7b-v1.5-q5_1` thông qua `ollama`.
 
+### Promt:
+
+Sử dụng promt sau để tương tác với trợ lý.
+
+- PROMPT = """Bạn là trợ lý hỏi đáp. Dùng các đoạn ngữ cảnh dưới đây để trả lời câu hỏi. Nếu ngữ cảnh không có thông tin, hãy nói là bạn không biết, đừng bịa. Trả lời ngắn gọn, chính xác, bằng tiếng Việt.
+Ngữ cảnh: {context}
+Câu hỏi: {question}
+"""
+
